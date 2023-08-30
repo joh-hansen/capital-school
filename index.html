@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Capital Secondary School</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="vendors/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <style>
+
+    .menu-icon{
+      display: none;
+    }
+
+    .list-items{
+      list-style: none;
+    }
+
+    .list-items li a img{
+      margin-right: 7px;
+      width: 25px;
+    }
+
+    .clean-link{
+      text-decoration: none;
+    }
+
+
+    @media(max-width: 887px){
+      .nav-bar{
+        display: none;
+      }
+
+      .active{
+        display: block;
+      }
+
+      .menu-icon{
+        display: block;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+        text-align: right;
+      }
+
+      .nav-items a:hover{
+        font-weight: bold;
+        font-size: 27px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section>
+
+    <header>
+      <marquee><h1>Welcome to Our School</h1></marquee>
+      <h1>CAPITAL SECONDARY SCHOOL</h1>
+    </header>
+
+
+    <div class="nav-section">
+      <nav>
+        <p class="menu-icon" id="menu-open">&#9776</p>
+        <ul class="nav-bar" id="menu">
+          <li class="nav-items"><a href="#">Home</a></li>
+          <li class="nav-items"><a href="#about-us">About</a></li>
+          <li class="nav-items"><a href="#services">Service</a></li>
+          <li class="nav-items"><a href="#contact">Contact</a></li>
+          <li class="nav-items"><a href="sign-up.php">Apply Now</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="slideshow-container">
+      <div class="slide">
+        <img src="images/header1.jpg" style="height: 500px; width: 100%" alt="Image 1">
+      </div>
+      <div class="slide">
+        <img src="images/header5.jpg" style="height: 500px; width: 100%" alt="Image 2">
+      </div>
+      <div class="slide">
+        <img src="images/header3.jpg" style="height: 500px; width: 100%" alt="Image 3">
+      </div>
+      <div class="slide">
+        <img src="images/header4.jpg" style="height: 500px; width: 100%" alt="Image 3">
+      </div>
+    </div>
+
+
+    <section id="about-us" class="about" style="margin-top: 50px;">
+      <div id="about-heading">
+        <h1 style="text-align: center;">ABOUT US</h1>
+      </div>
+      <div id="about-content">
+        <div id="mission" class="about-us">
+          <h2 class="about-head">
+            Mission:
+          </h2>
+          <p class="about-content">
+            To provide a nurturing and inclusive learning environment that empowers students to excel academically, develop critical thinking skills, and cultivate a passion for lifelong learning. Our mission is to foster a sense of responsibility, respect, and resilience, enabling students to become compassionate and globally-minded individuals
+          </p>
+          
+        </div>
+        <div id="vision" class="about-us">
+          <h2 class="about-head">
+          Vision:
+        </h2>
+        <p class="about-content">
+        Our vision is to be a leading secondary school that prepares students for future challenges by promoting innovation, creativity, and adaptability. Through a holistic approach to education, we aim to produce well-rounded individuals who are equipped with the knowledge, values, and skills needed to make a positive impact in their communities and the world.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="services" style="margin-top: 40px;">
+      <div class="container">
+        <h1 style="text-align: center;">OUR SERVICES</h1>
+        <div class="row">
+          <div class="col-md-6 service-item">
+            <h3>Core academic subjects</h3>
+            <p class="service-content">Mathematics, English, Science, Social Studies, and Languages.</p>
+          </div>
+          <div class="col-md-6 service-item">
+            <h3>Elective courses</h3>
+            <p class="service-content">Various subjects like Arts, Music, Physical Education, Computer Science, etc.</p>
+          </div>
+          <div class="col-md-6 service-item">
+            <h3>Extracurricular activities</h3>
+            <p class="service-content">Sports, clubs, and organizations to promote students' interests and skills.</p>
+          </div>
+          <div class="col-md-6 service-item">
+            <h3>Counseling services</h3>
+            <p class="service-content">Guidance and support for academic, social, and personal issues.</p>
+          </div>
+          <div class="col-md-6 service-item">
+            <h3>Library facilities</h3>
+            <p class="service-content">Access to books, resources, and study materials.</p>
+          </div>
+          <div class="col-md-6 service-item">
+            <h3>Special education programs</h3>
+            <p class="service-content">Support for students with learning disabilities or special needs.</p>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    
+    <section id="contact" style="margin-bottom: 8px;">
+      <div class="container-fluid">
+        <div class="row contact" style="background-color: aqua;" >
+          <h1 style="text-align: center; margin-top: 20px;" >CONTACT US NOW</h1>
+          <div class="col-md-3">
+            <h4 class="contact-head">Social Medias</h4>
+              <ul class="list-items">
+                <li><a href="" class="clean-link"><img src="icons/whatsapp.svg">WhatsApp</a></li>
+                <li><a href="" class="clean-link"><img src="icons/twitter.svg">Twitter</a></li>
+                <li><a href="" class="clean-link"><img src="icons/instagram.svg">Instagram</a></li>
+                <li><a href="" class="clean-link"><img src="icons/envelope.svg">Email</a></li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+            <h4 class="contact-head">Address</h4>
+              <ul class="list-items">
+              <li>Capital Secondary School</li>
+              <li>P.O.Box 59</li>
+              <li>Kisasa Street, Dodoma</li>
+              <li>Tanzania</li>
+          </ul>
+          </div>
+          <div class="col-md-3">
+            <h4 class="contact-head">Phone</h4>
+              <ul class="list-items">
+                <li><a href="" class="clean-link"><img src="icons/phone.svg">+255 679 895 062</a></li>
+                <li><a href="" class="clean-link"><img src="icons/phone.svg">+255 759 742 332</a></li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+            <h4 class="contact-head">Quick Links</h4>
+              <ul class="list-items">
+                <li><a href="files/Capital School Application Form.pdf" download="Capital Secondary School Application Form.pdf">Download Application Form</a></li>
+                <li><a href="https://www.nhif.or.tz" target="_blank">NHIF</a></li>
+                <li><a href="https://www.necta.go.tz" target="_blank">NECTA</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <div >
+          <p>&copy; Capital Secondary School 2023. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </section>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script>
+
+    //nav bar
+    var menuOpen = document.getElementById('menu-open');
+    var menu = document.getElementById('menu');
+
+    function openNav(){
+      menu.classList.toggle('active');
+    }
+    menuOpen.addEventListener('click', openNav)
+  </script>
+</body>
+</html>
